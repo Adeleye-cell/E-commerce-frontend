@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Details | ShopEase</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <header>
+        <nav class="navbar">
+
+            <div class="logo">
+                <h2>ShopEase</h2>
+            </div>
+
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li>
+                    <a href="cart.html">
+                        Cart (<span id="cart-count">0</span>)
+                    </a>
+                </li>
+            </ul>
+
+        </nav>
+    </header>
+
+    <!-- PRODUCT DETAILS -->
+    <section class="product-details">
+
+        <div class="product-details-container">
+
+            <!-- PRODUCT IMAGE -->
+            <div class="product-image-section">
+
+                <img
+                    src="images/products/product1.jpg"
+                    alt="Wireless Headphones"
+                    class="main-product-image">
+
+            </div>
+
+            <!-- PRODUCT INFO -->
+            <div class="product-info">
+
+                <h1>Wireless Headphones</h1>
+
+                <p class="product-price">
+                    ₦35,000
+                </p>
+
+                <p class="product-description">
+                    Oraimo BoomPop N Wireless Hybrid Noise Cancelling Over-Ear Headphones
+                </p>
+
+                <!-- QUANTITY -->
+                <div class="quantity-section">
+
+                    <label>Quantity:</label>
+
+                    <input
+                        type="number"
+                        value="1"
+                        min="1"
+                        id="quantity">
+
+                </div>
+
+                <!-- BUTTONS -->
+                <div class="product-actions">
+
+                    <button class="btn">
+                        Add To Cart
+                    </button>
+
+                    <button class="btn secondary-btn">
+                        Buy Now
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- RELATED PRODUCTS -->
+    <section class="related-products">
+
+        <div class="section-title">
+            <h2>Related Products</h2>
+        </div>
+
+        <div class="product-grid">
+
+            <div class="product-card">
+                <img src="images/products/product2.jpg" alt="">
+                <h3>Smart Watch</h3>
+                <p class="price">₦85,000</p>
+                <button class="btn">View Product</button>
+            </div>
+
+            <div class="product-card">
+                <img src="images/products/product3.jpg" alt="">
+                <h3>Bluetooth Speaker</h3>
+                <p class="price">₦28,000</p>
+                <button class="btn">View Product</button>
+            </div>
+
+            <div class="product-card">
+                <img src="images/products/product4.jpg" alt="">
+                <h3>Gaming Mouse</h3>
+                <p class="price">₦18,000</p>
+                <button class="btn">View Product</button>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>© 2026 ShopEase. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>

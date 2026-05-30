@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products | ShopEase</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <header>
+        <nav class="navbar">
+
+            <div class="logo">
+                <h2>ShopEase</h2>
+            </div>
+
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li>
+                    <a href="cart.html">
+                    Cart (<span id="cart-count">0</span>)
+                    </a>
+                </li>
+            </ul>
+
+        </nav>
+    </header>
+
+    <!-- PAGE HEADER -->
+    <section class="page-header">
+
+        <h1>Our Products</h1>
+
+        <p>
+            Browse our collection of quality tech products.
+        </p>
+
+    </section>
+
+    <!-- SEARCH + FILTER -->
+    <section class="filters">
+
+        <input
+            type="text"
+            placeholder="Search products..."
+            class="search-bar">
+
+        <div class="filter-buttons">
+
+            <button class="filter-btn active">
+                All
+            </button>
+
+            <button class="filter-btn">
+                Audio
+            </button>
+
+            <button class="filter-btn">
+                Wearables
+            </button>
+
+            <button class="filter-btn">
+                Accessories
+            </button>
+
+        </div>
+
+    </section>
+
+    <!-- PRODUCTS GRID -->
+    <section class="products-page">
+
+        <div class="product-grid">
+
+            <!-- Product 1 -->
+            <div class="product-card">
+
+                <a href="product-details.html">
+                    <img src="images/products/product1.jpg" alt="Headphones">
+                </a>
+
+                    <h3>
+                <a href="product-details.html">
+                            Wireless Headphones
+                 </a>
+                    </h3>
+                <p class="price">₦35,000</p>
+
+                <button
+                    class="btn add-to-cart"
+                    data-id="1"
+                    data-name="Wireless Headphones"
+                    data-price="35000">
+                    Add To Cart
+                </button>
+
+            </div>
+
+            <!-- Product 2 -->
+            <div class="product-card">
+
+                <img src="images/products/product2.jpg" alt="Smart Watch">
+
+                <h3>Smart Watch</h3>
+
+                <p class="price">₦85,000</p>
+
+                <button class="btn add-to-cart"
+                        data-id="2"
+                        data-name="Smart Watch"
+                        data-price="85000">
+                    Add To Cart
+                </button>
+
+            </div>
+
+            <!-- Product 3 -->
+            <div class="product-card">
+
+                <img src="images/products/product3.jpg" alt="Speaker">
+
+                <h3>Bluetooth Speaker</h3>
+
+                <p class="price">₦28,000</p>
+
+                <button class="btn add-to-cart"
+                        data-id="3"
+                        data-name="Bluetooth Speaker"
+                        data-price="28000">
+                    Add To Cart
+                </button>
+
+            </div>
+
+            <!-- Product 4 -->
+            <div class="product-card">
+
+                <img src="images/products/product4.jpg" alt="Mouse">
+
+                <h3>Gaming Mouse</h3>
+
+                <p class="price">₦18,000</p>
+
+                <button class="btn add-to-cart"
+                        data-id="4"
+                        data-name="Gaming Mouse"
+                        data-price="18000">
+                    Add To Cart
+                </button>
+
+            </div>
+
+            <!-- Product 5 -->
+            <div class="product-card">
+
+                <img src="images/products/product5.jpg" alt="Keyboard">
+
+                <h3>Mechanical Keyboard</h3>
+
+                <p class="price">₦42,000</p>
+
+                <button class="btn add-to-cart"
+                        data-id="5"
+                        data-name="Mechanical Keyboard"
+                        data-price="42000">
+                    Add To Cart
+                </button>
+
+            </div>
+
+            <!-- Product 6 -->
+            <div class="product-card">
+
+                <img src="images/products/product6.jpg" alt="Monitor">
+
+                <h3>24-inch Monitor</h3>
+
+                <p class="price">₦120,000</p>
+
+                <button class="btn add-to-cart"
+                        data-id="6"
+                        data-name="24-inch Monitor"
+                        data-price="120000">
+                    Add To Cart
+                </button>
+
+            </div>
+
+            <!-- Product 7 -->
+            <div class="product-card">
+
+                <img src="images/products/product7.jpg" alt="Laptop Stand">
+
+                <h3>Laptop Stand</h3>
+
+                <p class="price">₦15,000</p>
+
+                <button class="btn add-to-cart"
+                        data-id="7"
+                        data-name="Laptop Stand"
+                        data-price="15000">
+                    Add To Cart
+                </button>
+
+            </div>
+
+            <!-- Product 8 -->
+            <div class="product-card">
+
+                <img src="images/products/product8.jpg" alt="Power Bank">
+
+                <h3>Power Bank</h3>
+
+                <p class="price">₦25,000</p>
+
+                <button class="btn add-to-cart"
+                        data-id="8"
+                        data-name="Power Bank"
+                        data-price="25000">
+                    Add To Cart
+                </button>
+
+            </div>
+
+            <!-- Product 9 -->
+            <div class="product-card">
+
+                <img src="images/products/product9.jpg" alt="Webcam">
+
+                <h3>HD Webcam</h3>
+
+                <p class="price">₦30,000</p>
+
+                <button class="btn add-to-cart"
+                        data-id="9"
+                        data-name="HD Webcam"
+                        data-price="30000">
+                    Add To Cart
+                </button>
+
+            </div>
+
+            <!-- Product 10 -->
+            <div class="product-card">
+
+                <img src="images/products/product10.jpg" alt="Earbuds">
+
+                <h3>Wireless Earbuds</h3>
+
+                <p class="price">₦32,000</p>
+
+                <button class="btn add-to-cart"
+                        data-id="10"
+                        data-name="Wireless Earbuds"
+                        data-price="32000">
+                    Add To Cart
+                </button>
+
+            </div>
+
+            <!-- Product 11 -->
+            <div class="product-card">
+
+                <img src="images/products/product11.jpg" alt="SSD">
+
+                <h3>Portable SSD</h3>
+
+                <p class="price">₦65,000</p>
+
+                <button class="btn add-to-cart"
+                        data-id="11"
+                        data-name="Portable SSD"
+                        data-price="65000">
+                    Add To Cart
+                </button>
+
+            </div>
+
+            <!-- Product 12 -->
+            <div class="product-card">
+
+                <img src="images/products/product12.jpg" alt="Router">
+
+                <h3>Wi-Fi Router</h3>
+
+                <p class="price">₦55,000</p>
+
+                <button class="btn add-to-cart"
+                        data-id="12"
+                        data-name="Wi-Fi Router"
+                        data-price="55000">
+                    Add To Cart
+                </button>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>© 2026 ShopEase. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
